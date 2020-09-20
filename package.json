@@ -1,0 +1,18 @@
+{
+    "name": "test-kana-memorizer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha tests",
+        "clean": "rm -rf node_modules && rm -f package-lock.json && npm install"
+    },
+    "author": "Ramiro Modini",
+    "license": "ISC",
+    "devDependencies": {
+        "assert": "^2.0.0",
+        "chai": "^4.1.2",
+        "mocha": "^8.0.1",
+        "webdriverio": "^6.0.5"
+    }
+}
